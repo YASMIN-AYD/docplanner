@@ -1,0 +1,222 @@
+.logo-docplanner{
+    height: 33px;
+    width: 268px;
+
+}
+.main-header{
+    display: flex;
+    justify-content:end;
+    flex-direction: row;
+    display: inline;
+
+
+
+}
+.main-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    width: 500px;
+    align-items: stretch;
+    font-size: 17px;
+}
+.section__inner{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.is-current{
+    color: #00b39b;
+    text-decoration: none;
+    font-weight: bold;
+}
+.main-menu a{
+    display: block;
+    text-decoration: none;
+    padding: 0 .6em;
+    font-size: .9375rem;
+}
+ul{
+    list-style-type: none;
+}
+.lead{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lead__logo{
+    width: 40px;
+    height: 39px;
+}
+a{
+    color: #bababa;
+}
+.lead h1{
+    font-size: 2.125rem;
+    color: #00b39b;
+}
+.grid{
+    display: flex;
+    gap: 20px;
+    font-family: Work Sans, Arial, sans-serif;
+    color: #747474;
+    line-height: 1.75;
+    margin: .8em 0
+}
+body{
+    margin-left: 17%;
+    margin-right: 17%;
+}
+.service h1,img{
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    margin-left: 15px;
+
+}
+
+.services .style-select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+.services__item {
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.services {
+    margin: 3.75rem auto 2.5rem;
+}
+.services .style-select select {
+    width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    -webkit-appearance: none;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.services__item{
+    background-color:#3D83DF;
+}
+.service{
+    background-color: #00b39b;
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    overflow: hidden;
+    height: 345px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all .2s ease 0s;
+}
+.services section__inner  h1,h2{
+    color:white;
+
+
+}
+.services__item h1{
+    color: #fff;
+}
+.services__item--clinics{
+    background-color: #1b2734;
+}
+.style-select {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    color: #fff;
+    font-family: Roboto, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+    
+
+.brands__logos{
+    display: grid;
+    display: flex;
+    grid-template-columns: 154px 154px 154px 154px 154px;
+    grid-template-rows: 200px  ;
+    flex-wrap: wrap;
+    color: #747474;
+    justify-content: space-between;
+
+
+}
+.service h1, img {
+    height: 30px;
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: .3em 0;
+    margin-left: 15px;
+}
+h1{
+    color: #00b39b;
+}
+.brands__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+    color: #747474;
+}
+.brands h1 {
+    float: left;
+    width: 55%;
+    font-size: 1.625em;
+    margin: .25em 0 .35em;
+    padding-right: 1e;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300; 
+}
+
+.brands a{
+    color: #747474;
+}
+
+   
+.section__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 0px;
+}
